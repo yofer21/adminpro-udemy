@@ -10,7 +10,8 @@ import {
   SubirArchivoService,
   HospitalService,
   MedicoService,
-  LoginGuard
+  LoginGuard,
+  AdminGuard
 } from './service.index';
 import { ModalUploadService } from '../components/modal-upload/modal-upload.service';
 
@@ -25,7 +26,8 @@ import { ModalUploadService } from '../components/modal-upload/modal-upload.serv
     ModalUploadService,
     HospitalService,
     MedicoService,
-    LoginGuard
+    LoginGuard,
+    AdminGuard
   ],
   declarations: []
 })
