@@ -7,3 +7,4 @@ export { SidebarService } from './shared/sidebar.service';
 export { SubirArchivoService } from './subir-archivo/subir-archivo.service';
 export { LoginGuard } from './guards/login.guard';
 export { AdminGuard } from './guards/admin.guard';
+export { VerificaTokenGuard } from './guards/verifica-token.guard';

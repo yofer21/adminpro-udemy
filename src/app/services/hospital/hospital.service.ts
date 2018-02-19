@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { URL_SERVICIOS } from '../../config/config';
 import { UsuarioService } from '../usuario/usuario.service';
 import { Hospital } from '../../models/hospital.model';
+import swal from 'sweetalert';
 
 @Injectable()
 export class HospitalService {
